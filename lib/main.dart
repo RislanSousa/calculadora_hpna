@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
 
       home: Scaffold(
         appBar:AppBar(
-          //centralizar titulo do appBar
+          //centralizar titulo do appBarr
          title:Row(mainAxisAlignment: MainAxisAlignment.center,
              children:[Text('Calculadora HPNA'),
              ]
