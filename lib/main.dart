@@ -49,7 +49,7 @@ class _MyAppState extends State<MyApp> {
           width: double.infinity,
            height é responsavel pela
            altura dos TextField
-
+fffffffffffffffffffffffffff
            height: double.infinity,
            é responsavel por organizar
            por coluna e centralizar os TextField
@@ -107,9 +107,9 @@ class _MyAppState extends State<MyApp> {
 
 
               Container(
+                //width = largura do botao / heidth = altura do botao
                 width: 150,
                 height: 55,
-
                 child: RaisedButton.icon(onPressed:(){
                 print("Somando");
                 },
