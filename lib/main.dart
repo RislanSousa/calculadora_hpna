@@ -59,14 +59,23 @@ class _MyAppState extends State<MyApp> {
 
 
             children: [
+
+
               TextField(
-                decoration: InputDecoration(
+                //onChenged retorna o valor digitado no textFiield
+                onChanged: (cabos) {
+               //valor = cabos;
+               print(cabos);
+               },
+
+                  decoration: InputDecoration(
                   labelText: "Metros de Cabos",
                     border:OutlineInputBorder()
-                  ),
+               ),
                 //tipo de teclado a ser apresentado ao precionar o TextField
                 keyboardType: TextInputType.number
                 ),
+
               //Responsavel por dar o espaçamento entre os TextFild
               Padding(padding: EdgeInsets.all(10.0),),
 
